@@ -8,8 +8,19 @@ body{
     font-size: 12px;
 }
 
+nav {
+    display: flex;
+}
+
 a{
     text-decoration: none;
+    color: #f1683a;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #eee;
 }
 
 header{
@@ -23,10 +34,6 @@ header{
     z-index: 100;
 }
 
-header a{
-    color: #eee;
-    margin-right: 40px;
-}
 
 /* SLIDER */
 .carousel{
